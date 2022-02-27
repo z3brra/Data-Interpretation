@@ -21,4 +21,3 @@ il faut configurer la base de données MySQL *(à noter que le client MySQL doit
 2. Entrer la commande `SOURCE chemin_vers_fichier/base.sql`
 *À noter que la base de données utilise le moteur InnoDB (pour la vitesse d'écriture) et utilise l'encodage UTF-8*
 
-
