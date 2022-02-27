@@ -12,7 +12,7 @@ Ces modules seront donc installables avec le gestionnaire de paquet pip via la c
 > *le fichier se trouve dans le dossier /Scripts/Python*
 
 
-#### Une fois que les modules ont été installé :
+### Une fois que les modules ont été installé :
 il faut configurer la base de données MySQL *(à noter que le client MySQL doit être installé sur votre machine)*
 > Toute les requêtes SQL sont pré-codées dans le fichier /Scripts/SQL/base.sql afin de gagner du temps lors de l'éxécution des requêtes, le client exécutera
 > donc toute les requêtes d'un coup... Cela permet également lors du codage des requêtes de pouvoir éviter les erreurs de déclaration et
@@ -30,11 +30,13 @@ qui contiennent les arguments pour la base de données à savoir :
   - La database (base de données à utiliser)
 
 *Il y a également un dictionnaire pour le nom du fichier .xls*
+*La variable SUDO_PASSWORD ne concerne que les utilisateurs Linux*
 
 Il suffit donc d'y rensegner vos informations pour faire fonctionner correctement le script.
 
 > Pour expliquer brièvement les fonctions qui composent le script :
->   - La fonction 
+>   - La fonction connect_to_database() est une fonction comme son nom l'indique de connexion à la base de données, avec une gestion d'erreur pour les utilisateurs Linux qui permet si le service MySQL n'est pas démarré de corriger cette erreur et de démarrer automatiquement le service grâce à votre mot de passe root renseignable dans la variable "SUDO_PASSWORD"
+>   - 
 
 Une fois les informations saisie ouvrez votre terminal et éxecutez le script, le transfert se fera automatiquement..
 Pour vérifier si le transfert à bien été effectuer : utilisez dans le client MySQL la commande : `SELECT country_id, country_name FROM filtred_data;`
