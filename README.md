@@ -21,3 +21,11 @@ il faut configurer la base de données MySQL *(à noter que le client MySQL doit
 2. Entrer la commande `SOURCE chemin_vers_fichier/base.sql`
 *À noter que la base de données utilise le moteur InnoDB (pour la vitesse d'écriture) et utilise l'encodage UTF-8*
 
+#### Pour la partie du transfert de fichier : 
+Il ouvrir le fichier `transfert_data.py` qui se trouve dans le dossier `/Scripts/Python`, une fois le fichier ouvert vous trouverez les dictionnaire Python
+qui contiennent les arguments pour la base de données à savoir :
+  - L'host
+  - L'user (utilisateur)
+  - Le password (mot de passe)
+  - La database (base de données à utiliser)
+Il suffit donc d'y rensegner les informations pour faire fonctionner correctement le script.
