@@ -16,11 +16,11 @@ import pandas as pd
 
 DATABASE = {
     'host' : 'localhost',
-    'user' : 'zebrra',
-    'passwd' : 'cba9bc67810',
-    'db' : 'data_for_figure', 
+    'user' : 'my_user',
+    'passwd' : 'my_password',
+    'db' : 'my_database', 
 }
-SUDO_PASSWORD = 'cba9bc67810'
+SUDO_PASSWORD = 'my_password'
 
 def connect_to_database() -> object:
     """Connexion à une base MySQL avec une gestion d'erreur."""
