@@ -28,4 +28,5 @@ qui contiennent les arguments pour la base de données à savoir :
   - L'user (utilisateur)
   - Le password (mot de passe)
   - La database (base de données à utiliser)
-Il suffit donc d'y rensegner les informations pour faire fonctionner correctement le script.
+
+Il suffit donc d'y rensegner vos informations pour faire fonctionner correctement le script.
