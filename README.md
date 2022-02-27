@@ -30,13 +30,14 @@ qui contiennent les arguments pour la base de données à savoir :
   - La database (base de données à utiliser)
 
 *Il y a également un dictionnaire pour le nom du fichier .xls*
+
 *La variable SUDO_PASSWORD ne concerne que les utilisateurs Linux*
 
 Il suffit donc d'y rensegner vos informations pour faire fonctionner correctement le script.
 
 > Pour expliquer brièvement les fonctions qui composent le script :
->   - La fonction connect_to_database() est une fonction comme son nom l'indique de connexion à la base de données, avec une gestion d'erreur pour les utilisateurs Linux qui permet si le service MySQL n'est pas démarré de corriger cette erreur et de démarrer automatiquement le service grâce à votre mot de passe root renseignable dans la variable "SUDO_PASSWORD"
->   - 
+>   - La fonction `connect_to_database()` est une fonction comme son nom l'indique de connexion à la base de données en transformant les key, value du dictionnaire en kwargs, avec en plus une gestion d'erreur pour les utilisateurs Linux qui permet si le service MySQL n'est pas démarré de corriger cette erreur et de démarrer automatiquement le service grâce à votre mot de passe root renseignable dans la variable `SUDO_PASSWORD`
+>   - La fonction `open_xls_sheet()` reprend le même principe d'ouvertur de fichier xls avec une gestion d'erreur si le fichier est introuvable et fera arrêter le programme si une erreur est rencontrée.
 
 Une fois les informations saisie ouvrez votre terminal et éxecutez le script, le transfert se fera automatiquement..
 Pour vérifier si le transfert à bien été effectuer : utilisez dans le client MySQL la commande : `SELECT country_id, country_name FROM filtred_data;`
