@@ -14,16 +14,16 @@ tel que l'utilisateur ou le mot de passe ou le nom de la base à utiliser, ainsi
 """
 DATABASE = {
     'host' : 'localhost',
-    'user' : 'zebrra',
-    'passwd' : 'cba9bc67810',
-    'db' : 'data_for_figure', 
+    'user' : 'my_user',
+    'passwd' : 'my_password',
+    'db' : 'my_database', 
 }
 # Même principe pour le fichier xls
 XLS = {
     'filename' : '../../DataForFigure2.1WHR2021_1.xls'
 }
 
-SUDO_PASSWORD = 'cba9bc67810'
+SUDO_PASSWORD = 'my_password'
 
 def connect_to_database() -> object:
     """Connexion à une base MySQL avec une gestion d'erreur."""
