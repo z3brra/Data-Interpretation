@@ -28,7 +28,8 @@ qui contiennent les arguments pour la base de données à savoir :
   - L'user (utilisateur)
   - Le password (mot de passe)
   - La database (base de données à utiliser)
-Il y a également un dictionnaire pour le nom du fichier .xls
+
+*Il y a également un dictionnaire pour le nom du fichier .xls*
 
 Il suffit donc d'y rensegner vos informations pour faire fonctionner correctement le script.
 Une fois les informations saisie ouvrez votre terminal et éxecutez le script, le transfert se fera automatiquement..
