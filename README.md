@@ -10,3 +10,12 @@ Les modules sont les suivant :
 
 Ces modules seront donc installables avec le gestionnaire de paquet pip via la commande `pip install -r requirements.txt` 
 > *le fichier se trouve dans le dossier /Scripts/Python*
+
+Une fois que les modules ont été installé, il faut configurer la base de données MySQL *(à noter que le client MySQL doit être installé sur votre machine)*
+
+
+> Toute les requêtes SQL sont pré-codées dans le fichier /Scripts/SQL/base.sql afin de gagner du temps lors de l'éxécution des requêtes, le client exécutera
+> donc toute les requêtes d'un coup....
+
+1. Il faut se connecter au client MySQL avec son utilisateur favori 😜
+2. 
