@@ -56,4 +56,4 @@ Pour le rendu le script ouvrira donc 3 fenêtres de graphique en simultanées, i
   - figure 2
   - figure 3
 
-pour comprendre, les graphiques sont classée par ordre décroissant, donc du pays le plus "heureux" au pays le plus "malheureux", les pays qui seront donc sur la fenêtre 3 seront donc les moins bien classés.
+pour comprendre, les graphiques sont classée par ordre décroissant, donc du pays le plus "heureux" au pays le plus "malheureux", les pays qui seront donc sur la fenêtre figure 3 par exemple seront donc les moins bien classés.
