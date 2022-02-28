@@ -48,3 +48,12 @@ si vous obtenez des données, c'est parfait, le transfert s'est bien exécuté, 
 ## Présentation sommaire du script
 > *Le script se trouve dans le dossier /Script/Python/data_interpretations.py*
 > Il reprend les mêmes bases que le précédent pour la connexion MySQL avec la fonction **`connect_to_database()`**
+
+Le script codé en python également permet donc de faire une interprétation sous graphique des données provenant du fichier .xls puis stockées dans une DB (database)
+
+Pour le rendu le script ouvrira donc 3 fenêtres de graphique en simultanées, il suffira donc de choisir entre :
+  - figure 1
+  - figure 2
+  - figure 3
+
+pour comprendre, les graphiques sont classée par ordre décroissant, donc du pays le plus "heureux" au pays le plus "malheureux", les pays qui seront donc sur la fenêtre 3 seront donc les moins bien classés.
