@@ -68,3 +68,9 @@ La fonction **`loop_on_error_value() -> list`** :
     - Cette fonction est spécifique pour l'utilisation des valeurs d'erreur utilisable dans le rendu graphique pour la boîte à moustache avec l'intervalle de confiance à 95%, elle vas donc boucle sur deux colonnes spécifique qui sont directement appelée dans la fonction, elle retournera une liste de listes sous cette forme `[[max_value, min_value], [max_value, min_value], ...]`
 
 La fonction **`plot_format(df: pd.core.frame.DataFrame, country_sum: list, error_value: list) -> Any:`** : 
+  - Cette fonction formatte donc les plot pour le rendu graphique, elle prend en paramètre `df` qui correspond au dataframe, qui est donc du type de la classe **pd(panda).core.frame.DataFrame**, `country_sum` qui correspond à la somme des valeurs qui seront stockés dans le DataFrame (nous verrons l'utilité plus tard) c'est donc une **list**, et enfin `error_value` qui est une **list** et qui est simplement la liste des valeurs d'erreurs qui sont retournées lors de l'appel de la fonction `loop_on_error_value()`, et enfin cette fonction retourne **Any** (une valeur quelconque)
+    - Cette fonction permet de rassemebler tout les éléments afin de former un rendu graphique convenable avec des données qui lui sont données en paramètre.
+
+La fonction **`manager() -> None:`** :
+  - Cette fonction ne prend aucun paramètre et ne retourne **None** (rien), elle est là pour appeler tout les fonctions du programme et manager l'ensemble.
+    - Cette fonctione permet donc d'intancier toute nos liste depuis les différentes fonctions prévues à cet effet, et de pré-former les listes qui seront utilisées dans la fonction de plot_format(), elle sera donc là comme rotule du programme, et elle permet également l'affichage du grpahique.
