@@ -9,7 +9,10 @@ Les modules sont les suivant :
   - xlrd -> Module qui permet d'utiliser les fichier .xls avec Python
   - typing -> Module supplémentaire pour l'annotations de type
 
-Ces modules seront donc installables avec le gestionnaire de paquet pip via la commande `pip install -r requirements.txt` 
+Ces modules seront donc installables avec le gestionnaire de paquet pip via la commande : 
+```console
+pip install -r requirements.txt
+
 > *le fichier se trouve dans le dossier /Scripts/Python*
 
 
