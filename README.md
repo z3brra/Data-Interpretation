@@ -59,6 +59,10 @@ Pour le rendu le script ouvrira donc 3 fenêtres de graphique en simultanées, i
 pour comprendre, les graphiques sont classée par ordre décroissant, donc du pays le plus "heureux" au pays le plus "malheureux", les pays qui seront donc sur la fenêtre figure 3 par exemple seront donc les moins bien classés.
 
 ## Présentation des fonctions
-La fonction `loop_on_query(column_name: str) -> list` :
+La fonction **`loop_on_query(column_name: str) -> list`** :
   - Cette fonction prend donc en paramètre une chaîne de caractère ***(str)*** et retourne une liste ***(list)***
     - Cette chaîne de caractère correspond au nom de la colonne utilisable lors de la requête SQL, car cette fonction permet de boucler autant de fois qu'il y a de ligne dans notre base et de l'ajouter dans une liste pour l'utilisation de ces données.
+
+La fonction **`loop_on_error_value() -> list`** :
+  - Cette fonction ne prend aucun paramètre mais retourne aussi une liste ***(list)***
+    - Cette fonction est spécifique pour l'utilisation des valeurs d'erreur utilisable dans le rendu graphique pour la boîte à moustache avec l'intervalle de confiance à 95%, elle vas donc boucle sur deux colonnes spécifique qui sont directement appelée dans la fonction, elle retournera une liste de listes sous cette forme `[[max_value, min_value], [max_value, min_value]]`
