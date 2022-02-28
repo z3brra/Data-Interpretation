@@ -121,4 +121,9 @@ La fonction **`manager() -> None:`** :
     - Cette fonctione permet donc d'intancier toute nos liste depuis les différentes fonctions prévues à cet effet, et de pré-former les listes qui seront utilisées dans la fonction de plot_format(), elle sera donc là comme rotule du programme, et elle permet également l'affichage du graphique.
 
 # Rendu final
-![Rendu_final](https://cdn.discordapp.com/attachments/837802340802625536/947663004080689174/rendu.png)
+## Rendu figure 1
+![Rendu1](https://cdn.discordapp.com/attachments/837802340802625536/947663004080689174/rendu.png)
+## Rendu figure 2
+![Rendu2](https://cdn.discordapp.com/attachments/837802340802625536/947673588918534224/rendu2.png)
+## Rendu figure 3
+![Rendu3](https://cdn.discordapp.com/attachments/837802340802625536/947673602172518440/rendu3.png)
