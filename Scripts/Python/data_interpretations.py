@@ -39,6 +39,7 @@ def connect_to_database() -> object:
 
 
 def loop_on_query(column_name: str) -> list:
+    """Boucle sur une query SQL pour chaque ligne de la base de données"""
     database = connect_to_database()
     cursor = database.cursor()
 
@@ -53,6 +54,7 @@ def loop_on_query(column_name: str) -> list:
 
 
 def loop_on_error_value() -> list:
+    """Boucle pour définir la plage des valeurs d'erreur"""
     database = connect_to_database()
     cursor = database.cursor()
 
@@ -73,6 +75,7 @@ def loop_on_error_value() -> list:
 
 
 def plot_format(df: pd.core.frame.DataFrame, country_sum: list, error_value: list) -> Any:
+    """Va formatter le plot."""
     x = [i for i in range(9)]
     
     # défini notre plot avec la grid vertical. le zorder=2 permet de définir l'emplacement du des élément du plot dessus la grid.
@@ -97,6 +100,7 @@ def plot_format(df: pd.core.frame.DataFrame, country_sum: list, error_value: lis
 
 
 def manager() -> None:
+    """Définit toute les liste de valeurs utilisable pour le formattage du plot"""
     country_id = loop_on_query("country_id")
     country_name = loop_on_query("country_name")
 
