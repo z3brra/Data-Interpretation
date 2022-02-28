@@ -45,3 +45,5 @@ Pour vérifier si le transfert à bien été effectuer : utilisez dans le client
 si vous obtenez des données, c'est parfait, le transfert s'est bien exécuté, nous pouvons passer à la suite du programme.
 
 # Interprétations des données avec matplotlib.pyplot
+> *Le script se trouve dans le dossier /Script/Python/data_interpretations.py*
+> Il reprend les mêmes bases que le précédent pour la connexion MySQL avec la fonction **`connect_to_database()`**
