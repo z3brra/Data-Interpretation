@@ -19,7 +19,9 @@ il faut configurer la base de données MySQL *(à noter que le client MySQL doit
 > donc toute les requêtes d'un coup... Cela permet également lors du codage des requêtes de pouvoir éviter les erreurs de déclaration et
 > de configuration des tables.
 1. Il faut se connecter au client MySQL avec son utilisateur favori 😜
-2. Entrer la commande ```SQL SOURCE chemin_vers_fichier/base.sql```
+2. Entrer la commande ```SQL
+SOURCE chemin_vers_fichier/base.sql
+```
 *À noter que la base de données utilise le moteur InnoDB (pour la vitesse d'écriture) et utilise l'encodage UTF-8*
 
 ### Pour la partie du transfert de fichier : 
