@@ -68,12 +68,11 @@ si vous obtenez des données, c'est parfait, le transfert s'est bien exécuté, 
 ## Présentation sommaire du script
 #### La liste des imports sont les suivants :
 ```python
-from typing import Any
-import numpy as np
 import pymysql
 import os
 import platform
 from sys import exit
+from typing import Any
 
 import matplotlib.pyplot as plt
 import numpy as np
