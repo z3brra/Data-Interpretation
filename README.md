@@ -7,6 +7,7 @@ Tout d'abord, avant de commencer quoi que ce soit il faut installer les modules 
 Les modules sont les suivant :
   - pymysql -> Module qui permet d'intéragir sur la base de données MySQL avec Python
   - xlrd -> Module qui permet d'utiliser les fichier .xls avec Python
+  - typing -> Module supplémentaire pour l'annotations de type
 
 Ces modules seront donc installables avec le gestionnaire de paquet pip via la commande `pip install -r requirements.txt` 
 > *le fichier se trouve dans le dossier /Scripts/Python*
@@ -22,6 +23,15 @@ il faut configurer la base de données MySQL *(à noter que le client MySQL doit
 *À noter que la base de données utilise le moteur InnoDB (pour la vitesse d'écriture) et utilise l'encodage UTF-8*
 
 ### Pour la partie du transfert de fichier : 
+#### La liste des import sont les suivants :
+```
+import pymysql
+import xlrd
+import platform
+import os
+from sys import exit
+from typing import Any
+```
 Il ouvrir le fichier `transfert_data.py` qui se trouve dans le dossier `/Scripts/Python`, une fois le fichier ouvert vous trouverez les dictionnaire Python
 qui contiennent les arguments pour la base de données à savoir :
   - L'host
@@ -46,6 +56,19 @@ si vous obtenez des données, c'est parfait, le transfert s'est bien exécuté, 
 
 # Interprétations des données avec matplotlib.pyplot
 ## Présentation sommaire du script
+#### La liste des imports sont les suivants :
+```
+from typing import Any
+import numpy as np
+import pymysql
+import os
+import platform
+from sys import exit
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+```
 > *Le script se trouve dans le dossier /Script/Python/data_interpretations.py*
 > Il reprend les mêmes bases que le précédent pour la connexion MySQL avec la fonction **`connect_to_database()`**
 
