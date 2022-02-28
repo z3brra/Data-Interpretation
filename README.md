@@ -24,7 +24,7 @@ il faut configurer la base de données MySQL *(à noter que le client MySQL doit
 
 ### Pour la partie du transfert de fichier : 
 #### La liste des import sont les suivants :
-```
+```python
 import pymysql
 import xlrd
 import platform
