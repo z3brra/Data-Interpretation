@@ -44,4 +44,4 @@ Une fois les informations saisie ouvrez votre terminal et éxecutez le script, l
 Pour vérifier si le transfert à bien été effectuer : utilisez dans le client MySQL la commande : `SELECT country_id, country_name FROM filtred_data;`
 si vous obtenez des données, c'est parfait, le transfert s'est bien exécuté, nous pouvons passer à la suite du programme.
 
-# Interprétations des données
+# Interprétations des données avec matplotlib.pyplot
