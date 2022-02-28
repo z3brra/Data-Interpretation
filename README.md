@@ -57,3 +57,8 @@ Pour le rendu le script ouvrira donc 3 fenêtres de graphique en simultanées, i
   - figure 3
 
 pour comprendre, les graphiques sont classée par ordre décroissant, donc du pays le plus "heureux" au pays le plus "malheureux", les pays qui seront donc sur la fenêtre figure 3 par exemple seront donc les moins bien classés.
+
+## Présentation des fonctions
+La fonction `loop_on_query(column_name: str) -> list` :
+  - Cette fonction prend donc en paramètre une chaîne de caractère et retourne une liste
+    - Cette correspond au nom de la colonne utilisable lors de la requête SQL, car cette fonction permet de boucler autant de fois qu'il y a de ligne dans notre base et de l'ajouter dans une liste pour l'utilisation de ces données.
