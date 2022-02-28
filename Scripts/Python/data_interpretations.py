@@ -74,14 +74,17 @@ def loop_on_error_value() -> list:
 
 def plot_format(df: pd.core.frame.DataFrame, country_sum: list, error_value: list) -> Any:
     x = [i for i in range(9)]
-
+    
+    # défini notre plot avec la grid vertical. le zorder=2 permet de définir l'emplacement du des élément du plot dessus la grid.
     df.plot(width=0.5, kind='barh', stacked=True, zorder=2, figsize=(15, 10)).grid(axis='y', visible=None)
 
     #calacul la différence de la barre d'erreur par rapport à la longueur de la barre 
     #et transforme l'array dans une forme (2, N)
     err_vals = np.abs(np.asarray(error_value).T - country_sum[None])[::-1, :]
 
+   # défini la barre d'erreur (l'intervalle de confiance avec le seuil à 95%)
     plt.errorbar(country_sum, np.arange(df.shape[0]), xerr=err_vals, capsize=2, color="k", ls="none", label="95% confidence interval")
+    # ajuste le placement du graphique oar rapport à la fenêtre
     plt.subplots_adjust(bottom=0.2, left=0.2)
     plt.axvline(x=2.43, label="Dystopia (hapiness=2.43)", c='black', zorder=0)
 
