@@ -19,7 +19,8 @@ il faut configurer la base de données MySQL *(à noter que le client MySQL doit
 > donc toute les requêtes d'un coup... Cela permet également lors du codage des requêtes de pouvoir éviter les erreurs de déclaration et
 > de configuration des tables.
 1. Il faut se connecter au client MySQL avec son utilisateur favori 😜
-2. Entrer la commande ```SQL
+2. Entrer la commande :
+```SQL
 SOURCE chemin_vers_fichier/base.sql
 ```
 *À noter que la base de données utilise le moteur InnoDB (pour la vitesse d'écriture) et utilise l'encodage UTF-8*
@@ -87,15 +88,24 @@ Pour le rendu le script ouvrira donc 3 fenêtres de graphique en simultanées, i
 pour comprendre, les graphiques sont classée par ordre décroissant, donc du pays le plus "heureux" au pays le plus "malheureux", les pays qui seront donc sur la fenêtre figure 3 par exemple seront donc les moins bien classés.
 
 ## Présentation des fonctions
-La fonction **`loop_on_query(column_name: str) -> list`** :
+La fonction
+```python
+loop_on_query(column_name: str) -> list
+```
   - Cette fonction prend donc en paramètre une chaîne de caractère ***(str)*** et retourne une liste ***(list)***
     - Cette chaîne de caractère correspond au nom de la colonne utilisable lors de la requête SQL, car cette fonction permet de boucler autant de fois qu'il y a de ligne dans notre base et de l'ajouter dans une liste pour l'utilisation de ces données.
 
-La fonction **`loop_on_error_value() -> list`** :
+La fonction :
+```python
+loop_on_error_value() -> list
+```
   - Cette fonction ne prend aucun paramètre mais retourne aussi une liste ***(list)***
     - Cette fonction est spécifique pour l'utilisation des valeurs d'erreur utilisable dans le rendu graphique pour la boîte à moustache avec l'intervalle de confiance à 95%, elle vas donc boucle sur deux colonnes spécifique qui sont directement appelée dans la fonction, elle retournera une liste de listes sous cette forme `[[max_value, min_value], [max_value, min_value], ...]`
 
-La fonction **`plot_format(df: pd.core.frame.DataFrame, country_sum: list, error_value: list) -> Any:`** : 
+La fonction : 
+```python
+plot_format(df: pd.core.frame.DataFrame, country_sum: list, error_value: list) -> Any:
+``` 
   - Cette fonction formatte donc les plot pour le rendu graphique, elle prend en paramètre `df` qui correspond au dataframe, qui est donc du type de la classe **pd(panda).core.frame.DataFrame**, `country_sum` qui correspond à la somme des valeurs qui seront stockés dans le DataFrame (nous verrons l'utilité plus tard) c'est donc une **list**, et enfin `error_value` qui est une **list** et qui est simplement la liste des valeurs d'erreurs qui sont retournées lors de l'appel de la fonction `loop_on_error_value()`, et enfin cette fonction retourne **Any** (une valeur quelconque)
     - Cette fonction permet de rassemebler tout les éléments afin de former un rendu graphique convenable avec des données qui lui sont données en paramètre.
 
