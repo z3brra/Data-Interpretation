@@ -1,13 +1,11 @@
 #! /usr/bin/python3
 # -*- coding: utf-8 -*-
 
-from typing import Any
-import numpy as np
 import pymysql
 import os
 import platform
 from sys import exit
-
+from typing import Any
 
 import matplotlib.pyplot as plt
 import numpy as np
