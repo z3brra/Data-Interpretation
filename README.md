@@ -72,5 +72,5 @@ La fonction **`plot_format(df: pd.core.frame.DataFrame, country_sum: list, error
     - Cette fonction permet de rassemebler tout les éléments afin de former un rendu graphique convenable avec des données qui lui sont données en paramètre.
 
 La fonction **`manager() -> None:`** :
-  - Cette fonction ne prend aucun paramètre et ne retourne **None** (rien), elle est là pour appeler tout les fonctions du programme et manager l'ensemble.
-    - Cette fonctione permet donc d'intancier toute nos liste depuis les différentes fonctions prévues à cet effet, et de pré-former les listes qui seront utilisées dans la fonction de plot_format(), elle sera donc là comme rotule du programme, et elle permet également l'affichage du grpahique.
+  - Cette fonction ne prend aucun paramètre et retourne **None** (rien), elle est là pour appeler tout les fonctions du programme et manager l'ensemble.
+    - Cette fonctione permet donc d'intancier toute nos liste depuis les différentes fonctions prévues à cet effet, et de pré-former les listes qui seront utilisées dans la fonction de plot_format(), elle sera donc là comme rotule du programme, et elle permet également l'affichage du graphique.
