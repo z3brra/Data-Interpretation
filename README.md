@@ -100,7 +100,10 @@ La fonction :
 loop_on_error_value() -> list
 ```
   - Cette fonction ne prend aucun paramètre mais retourne aussi une liste ***(list)***
-    - Cette fonction est spécifique pour l'utilisation des valeurs d'erreur utilisable dans le rendu graphique pour la boîte à moustache avec l'intervalle de confiance à 95%, elle vas donc boucle sur deux colonnes spécifique qui sont directement appelée dans la fonction, elle retournera une liste de listes sous cette forme `[[max_value, min_value], [max_value, min_value], ...]`
+    - Cette fonction est spécifique pour l'utilisation des valeurs d'erreur utilisable dans le rendu graphique pour la boîte à moustache avec l'intervalle de confiance à 95%, elle vas donc boucle sur deux colonnes spécifique qui sont directement appelée dans la fonction, elle retournera une liste de listes sous cette forme :
+    - ```python
+    [[max_value, min_value], [max_value, min_value], ...]
+    ```
 
 La fonction : 
 ```python
