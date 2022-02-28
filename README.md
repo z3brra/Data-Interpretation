@@ -2,7 +2,7 @@
 
 ## Transferts du fichier .xls vers MySQL
 
-Tout d'abord, avant de commencer quoi que ce soit il faut importer les modules qui seront utilisé à la lecture des données et au transfert de ces données.
+Tout d'abord, avant de commencer quoi que ce soit il faut installer les modules qui seront utilisé à la lecture des données et au transfert de ces données si ce n'est pas le cas.
 
 Les modules sont les suivant :
   - pymysql -> Module qui permet d'intéragir sur la base de données MySQL avec Python
