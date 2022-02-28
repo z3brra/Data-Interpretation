@@ -51,13 +51,16 @@ Il suffit donc d'y rensegner vos informations pour faire fonctionner correctemen
 >   - Viens ensuite la fonction **`transfert_data()`** qui vient transferer les données .xls vers MySQL (cette partie manque d'optimisation, elle sera corrigée très prochainement.)
 
 Une fois les informations saisie ouvrez votre terminal et éxecutez le script, le transfert se fera automatiquement..
-Pour vérifier si le transfert à bien été effectuer : utilisez dans le client MySQL la commande : `SELECT country_id, country_name FROM filtred_data;`
+Pour vérifier si le transfert à bien été effectuer : utilisez dans le client MySQL la commande : 
+```SQL
+SELECT country_id, country_name FROM filtred_data;
+```
 si vous obtenez des données, c'est parfait, le transfert s'est bien exécuté, nous pouvons passer à la suite du programme.
 
 # Interprétations des données avec matplotlib.pyplot
 ## Présentation sommaire du script
 #### La liste des imports sont les suivants :
-```
+```python
 from typing import Any
 import numpy as np
 import pymysql
