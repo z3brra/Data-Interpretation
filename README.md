@@ -12,6 +12,7 @@ Les modules sont les suivant :
 Ces modules seront donc installables avec le gestionnaire de paquet pip via la commande : 
 ```console
 pip install -r requirements.txt
+```
 
 > *le fichier se trouve dans le dossier /Scripts/Python*
 
