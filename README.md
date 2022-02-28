@@ -60,5 +60,5 @@ pour comprendre, les graphiques sont classée par ordre décroissant, donc du pa
 
 ## Présentation des fonctions
 La fonction `loop_on_query(column_name: str) -> list` :
-  - Cette fonction prend donc en paramètre une chaîne de caractère *(str)* et retourne une liste *(list)*
+  - Cette fonction prend donc en paramètre une chaîne de caractère ***(str)*** et retourne une liste ***(list)***
     - Cette chaîne de caractère correspond au nom de la colonne utilisable lors de la requête SQL, car cette fonction permet de boucler autant de fois qu'il y a de ligne dans notre base et de l'ajouter dans une liste pour l'utilisation de ces données.
