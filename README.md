@@ -115,3 +115,6 @@ plot_format(df: pd.core.frame.DataFrame, country_sum: list, error_value: list) -
 La fonction **`manager() -> None:`** :
   - Cette fonction ne prend aucun paramètre et retourne **None** (rien), elle est là pour appeler tout les fonctions du programme et manager l'ensemble.
     - Cette fonctione permet donc d'intancier toute nos liste depuis les différentes fonctions prévues à cet effet, et de pré-former les listes qui seront utilisées dans la fonction de plot_format(), elle sera donc là comme rotule du programme, et elle permet également l'affichage du graphique.
+
+# Rendu final
+![Rendu_final](https://cdn.discordapp.com/attachments/837802340802625536/947663004080689174/rendu.png)
