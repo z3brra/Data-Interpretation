@@ -115,11 +115,11 @@ La fonction :
 ```python
 plot_format(df: pd.core.frame.DataFrame, country_sum: list, error_value: list) -> Any:
 ``` 
-  - Cette fonction formate donc les plots pour le rendu graphique, elle prend en paramètre `df` qui correspond au dataframe, qui est donc du type de la classe **pd(panda).core.frame.DataFrame**, `country_sum` qui correspond à la somme des valeurs qui seront stockées dans le DataFrame (nous verrons l'utilité plus tard) c'est donc une **list** et enfin `error_value` qui est une **list** et qui est simplement la liste des valeurs d'erreurs qui sont retournées lors de l'appel de la fonction `loop_on_error_value()`, et enfin cette fonction retourne **Any** (une valeur quelconque)
+  - Cette fonction formate donc les plots pour le rendu graphique, elle prend en paramètre `df` qui correspond au dataframe, qui est donc du type de la classe **pd(panda).core.frame.DataFrame**, `country_sum` qui correspond à la somme des valeurs qui seront stockées dans le DataFrame (nous verrons l'utilité plus tard) c'est donc une ***(list)*** et enfin `error_value` qui est une ***(list)*** et qui est simplement la liste des valeurs d'erreurs qui sont retournées lors de l'appel de la fonction `loop_on_error_value()`, et enfin cette fonction retourne ***(Any)*** (une valeur quelconque)
     - Cette fonction permet de rassembler tous les éléments afin de former un rendu graphique convenable avec des données qui lui sont données en paramètre.
 
 La fonction **`manager() -> None:`** :
-  - Cette fonction ne prend aucun paramètre et retourne **None** (rien), elle est là pour appeler tout les fonctions du programme et manager l'ensemble.
+  - Cette fonction ne prend aucun paramètre et retourne ***(None)*** (rien), elle est là pour appeler tout les fonctions du programme et manager l'ensemble.
     - Cette fonction permet donc d'instancier toutes nos listes depuis les différentes fonctions prévues à cet effet, et de préformer les listes qui seront utilisées dans la fonction de plot_format(), elle sera donc là comme rotule du programme, et elle permet également l'affichage du graphique.
 
 # Rendu final
