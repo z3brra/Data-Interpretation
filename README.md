@@ -1,11 +1,3 @@
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
 # Interprétation statistiques
 
 ## Transferts du fichier .xls vers MySQL
