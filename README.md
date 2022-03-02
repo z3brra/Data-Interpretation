@@ -24,6 +24,7 @@ il faut configurer la base de données MySQL *(à noter que le client MySQL doit
 > de configuration des tables.
 1. Il faut se connecter au client MySQL avec son utilisateur favori 😜
 2. Entrer la commande :
+
 ```SQL
 SOURCE chemin_vers_fichier/base.sql
 ```
