@@ -4,7 +4,7 @@
 [Transfert](#Une fois que les modules ont été installé)
 [Présentation du Script d'analyse](#Présentation sommaire du script)
 
-
+s
 ## Transferts du fichier .xls vers MySQL
 
 Tout d'abord, avant de commencer quoi que ce soit il faut installer les modules qui seront utilisés à la lecture des données et au transfert de ces données si ce n'est pas le cas.
