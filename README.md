@@ -2,7 +2,9 @@
 ## Contenu
 - [Sommaire](#transferts-du-fichier-xls-vers-mysql-)
 - [Transfert](#une-fois-que-les-modules-ont-été-installé-)
-- [Présentation du Script d'analyse](#présentation-sommaire-du-script-)
+- [Présentation du Script d'analyse](#présentation-sommaire-du-script)
+- [Présentation des fonctions](#présentation-des-fonctions)
+- [Rendu final](#rendu-final)
 
 ## Transferts du fichier .xls vers MySQL
 
