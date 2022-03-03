@@ -1,6 +1,8 @@
 # Interprétation statistiques
 ## Contenu
-[dssd](#dd)
+[Sommaire](#Transferts du fichier .xls vers MySQL)
+[Transfert](#Une fois que les modules ont été installé)
+[Présentation du Script d'analyse](#Présentation sommaire du script)
 
 
 ## Transferts du fichier .xls vers MySQL
