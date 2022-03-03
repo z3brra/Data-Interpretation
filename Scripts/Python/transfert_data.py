@@ -20,7 +20,7 @@ DATABASE = {
 }
 # Même principe pour le fichier xls
 XLS = {
-    'filename' : '../../DataForFigure2.1WHR2021_1.xls'
+    'filename' : '../../Ressources/Excel/DataForFigure2.1WHR2021_1.xls'
 }
 
 SUDO_PASSWORD = 'my_password'
