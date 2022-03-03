@@ -1,6 +1,6 @@
 # Interprétation statistiques
 ## Contenu
-[Sommaire](#Transferts du fichier .xls vers MySQL)
+[Sommaire](#transferts-du-fichier-.xls-vers-mysql)
 [Transfert](#Une fois que les modules ont été installé)
 [Présentation du Script d'analyse](#Présentation sommaire du script)
 
