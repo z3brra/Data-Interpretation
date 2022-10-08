@@ -6,6 +6,8 @@
 - [Présentation des fonctions](#présentation-des-fonctions)
 - [Rendu final](#rendu-final)
 
+### Projet réalisé pour un étudiant en BUT STID.
+
 ## Transferts du fichier .xls vers MySQL
 
 Tout d'abord, avant de commencer quoi que ce soit il faut installer les modules qui seront utilisés à la lecture des données et au transfert de ces données si ce n'est pas le cas.
